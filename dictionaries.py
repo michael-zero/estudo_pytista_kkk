@@ -18,13 +18,22 @@ print('age' in person)
 #showing the keys in my dictionary
 print(person.keys()) 
 
-#convert for list
+#convert to list
 print(list(person.keys())) #list(people.keys())[0] return value in index 0
 
 #values 
 values = list(person.values())
 print(values)
 print(values.count('zero')) #there is one element with value equal 0 
+
+
+#assigning a new value
+person['name'] = 'robot_exe'
+print(person)
+
+#create a new dict
+person = dict(name = 'robot', time = 'Palmeiras')
+print(person)
 
 # nome = input('digite seu nome: ')
 
