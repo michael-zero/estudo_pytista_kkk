@@ -8,11 +8,11 @@ def ninja_intro(dictionary):
 ninja_belts = {}
 
 while True:
-    ninja_name = input('enter a ninja name ')
+    ninja_name  = input('enter a ninja name ')
     ninja_belt  = input('enter a belt colour ')
     ninja_belts[ninja_name] = ninja_belt 
 
-    outro = input('add another? (y/n')
+    outro = input('add another? (y/n)')
 
     if outro == 'y':
         continue

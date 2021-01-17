@@ -1,7 +1,7 @@
 ##(key, value) pairs
 person = {
     "name": "zero",
-     "studying": "Python"
+    "studying": "Python"
 }
 
 print(person) #show people
