@@ -19,7 +19,20 @@ ipsum_file = open('files/ipsum.txt')
 # ipsum_file.close()
 
 #open and close
-with open('files/ipsum.txt') as file:
-    lines = file.readlines()
-    print(lines)
+# with open('files/ipsum.txt') as file:
+#     lines = file.readlines()
+#     print(lines)
 
+
+#write
+with open('files/ipsum.txt','a') as write_file:
+    write_file.write('\nflabosta vai ganhar nada')
+   
+text = ['\npalmeiras','\nsera','\ncampeao']
+
+with open('files/ipsum.txt','a') as write_file:
+    write_file.write('\nchora, fdp')
+
+with open('files/ipsum.txt','a') as write_file:
+    write_file.writelines(text)
+    
