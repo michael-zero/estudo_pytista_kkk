@@ -25,3 +25,6 @@ print(list(map(squad,(3,9,27))))
 print([jumble(word) for word in words])
 
 
+print(list(map( lambda x: x*2, (3,5,8))))
+
+
